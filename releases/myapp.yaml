@@ -17,6 +17,7 @@ spec:
     env:
       AA: BLABLA
       BB: aaa
+      CC: only_here
     image:
       repository: avielb/test-flux
       tag: master-7896
