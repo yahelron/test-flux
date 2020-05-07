@@ -16,6 +16,7 @@ spec:
   values:
     env:
       AA: BLABLA
+      BB: aaa
     image:
       repository: avielb/test-flux
       tag: 1.1.20
