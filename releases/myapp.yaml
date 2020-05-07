@@ -6,7 +6,6 @@ metadata:
   namespace: default
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.chart-image: glob:3.1.1-debian-9-*
 spec:
   releaseName: myapp
   chart:
