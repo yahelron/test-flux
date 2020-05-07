@@ -19,5 +19,5 @@ spec:
       BB: aaa
     image:
       repository: avielb/test-flux
-      tag: master-7895
+      tag: master-7896
 
