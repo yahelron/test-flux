@@ -1,0 +1,18 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: myapp
+  default
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.chart-image: glob:3.1.1-debian-9-*
+spec:
+  releaseName: myapp
+  chart:
+    git: ssh://git@github.com/avielb/test-flux.git
+    ref: master
+    path: app
+  values:
+    env:
+      AA: BLABLA

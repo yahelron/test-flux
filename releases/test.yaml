@@ -1,0 +1,15 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: test
+  namespace: default
+spec:
+  releaseName: test
+  chart:
+    repository: "https://raw.githubusercontent.com/avielb/test-flux/master/"
+    name: mychart
+    version: ~0.6.7
+  valuesFrom:
+    - chartFileRef:
+        path: values-test.yaml

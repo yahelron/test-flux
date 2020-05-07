@@ -1,0 +1,6 @@
+git:
+  readonly: true
+  url: git@github.com:avielb/test-flux
+helm:
+  versions: v3
+
