@@ -18,5 +18,5 @@ spec:
       AA: BLABLA
     image:
       repository: avielb/test-flux
-      tag: 1.1.20
-    
+      tag: 1.1.21
+
