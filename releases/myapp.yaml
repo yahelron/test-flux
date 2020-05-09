@@ -16,6 +16,7 @@ spec:
   values:
     env:
       AA: BLABLA
+      BB: GGG
     image:
       repository: avielb/test-flux
       tag: master-8200
