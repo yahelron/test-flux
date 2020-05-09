@@ -16,9 +16,6 @@ spec:
   values:
     env:
       AA: BLABLA
-      BB: aaa
-      CC: only_here
-      DEVOPS: EXPERTS
     image:
       repository: avielb/test-flux
       tag: master-8200
