@@ -16,6 +16,7 @@ fullnameOverride: ""
 env:
   INIT_ENV: 1
   VERSION: new
+  DEVOPS: EXPERT
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
