@@ -17,6 +17,7 @@ spec:
     env:
       AA: BLABLA
       BB: aaa
+      DEMO: not_working
     image:
       repository: avielb/test-flux
       tag: master-8211
