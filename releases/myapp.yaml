@@ -19,5 +19,5 @@ spec:
       BB: GGG
     image:
       repository: avielb/test-flux
-      tag: master-8200
+      tag: master-8211
 
